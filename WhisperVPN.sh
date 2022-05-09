@@ -7,7 +7,7 @@ cyan="\e[36m"
 pink="\e[34m"
 #-----------------
 # scripting start
-menu(){
+banner(){
 vid
 figlet WhisperVPN  
 echo -e "© 2022 WhisperVPN LTD"
@@ -38,6 +38,7 @@ tor
 elif [ $optnz = "2" ];
 then
 am start -a android.intent.action.VIEW -d https://whispervpn.company.site/ > /dev/null 2>&1
+banner
 menu
 elif [ $optnz = "3" ];
 then
@@ -45,6 +46,7 @@ upd
 elif [ $optnz = "4" ];
 then
 am start -a android.intent.action.VIEW -d https://github.com/WhisperVPN/WhisperVPN/issues > /dev/null 2>&1
+banner
 menu
 elif [ $optnz = "5" ];
 then
