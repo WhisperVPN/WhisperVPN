@@ -9,7 +9,8 @@ pink="\e[34m"
 # scripting start
 menu(){
 vid
-echo -e '\e[34m                                     ..::...                                             
+echo -e '\e[34m
+                                                ..::...                                             
                                             .^~!7777777!^.                                          
                                            ^!!~:.....:^!77!:             .:~!!!!~:.                 
                                          .!7:     .     .~77~.         .!JJ?7!7?JYJ7^               
@@ -97,7 +98,7 @@ echo -e "         \e[34mUpdating WhisperVPN...\e[34m"
 echo
 printf "                     \e[34m["
 # While process is running...
-while git clone https://github.com/ParzivalHack/WhisperVPN 2> /dev/null; do 
+while git clone https://github.com/WhisperVPN/WhisperVPN 2> /dev/null; do 
     printf  "\e[34m▓▓▓▓▓▓▓▓▓▓▓▓▓\e[34m"
     sleep 1
 done
@@ -134,7 +135,7 @@ clear
 menu
 elif [ "$p" = "z" ];
 then
-cd $HOM/doomshell
+cd $HOM/WhisperVPN
 rm noob.noob
 menu
 else
