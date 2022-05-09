@@ -24,7 +24,7 @@ echo " "
 echo " "
 }
 menu(){
-echo -e "                $pink © 2022 WhisperVPN LTD. $pink"
+echo -e "                  $pink © 2022 WhisperVPN LTD. $pink"
 echo -e "$cyan             ＞＞＞＞>>>＞$cyan [Menu]$cyan ＜<<<＜＜＜＜$cyan"
 echo " "
 echo " "
