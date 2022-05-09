@@ -20,11 +20,11 @@ echo -e '\e[34m
   ░   ░   ░  ░░ ░ ▒ ░░  ░  ░  ░░          ░     ░░   ░      ░░  ░░          ░   ░ ░    
     ░     ░  ░  ░ ░        ░              ░  ░   ░           ░                    ░    
                                                             ░                          '
-echo -e                        "© 2022 WhisperVPN LTD"
 echo " "
 echo " "
 }
 menu(){
+echo -e "$cyan             ＞＞＞＞>>>＞$cyan © 2022 WhisperVPN LTD. $cyan ＜<<<＜＜＜＜$cyan"
 echo -e "$cyan             ＞＞＞＞>>>＞$cyan [Menu]$cyan ＜<<<＜＜＜＜$cyan"
 echo " "
 echo " "
