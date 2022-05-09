@@ -34,7 +34,7 @@ echo -e '\e[34m                                     ..::...
                                          ^J?^...^7YY?:              .. .^!!!!!!!!~:                 
                                           .!?JJJJJ?~.                     ......                   
                                              .:::.  
-echo -e '\e[36m                                    © 2022 WhisperVPN LTD
+                                                 © 2022 WhisperVPN LTD
 echo " "
 echo " "
 }
