@@ -51,6 +51,8 @@ banner
 menu
 elif [ $optnz = "5" ];
 then
+echo -e "Thanks for choosing WhisperVPN :D"
+sleep 1
 exit 1
 else
 echo "ERROR000 - Something went wrong :/"
