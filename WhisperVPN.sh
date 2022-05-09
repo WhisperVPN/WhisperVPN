@@ -9,7 +9,8 @@ pink="\e[34m"
 # scripting start
 banner(){
 vid
-figlet WhisperVPN  
+echo -e '\e[34m kajshghsuwhgvsbhdsuhbvdbhwshwbs
+'
 echo -e "© 2022 WhisperVPN LTD"
 echo " "
 echo " "
