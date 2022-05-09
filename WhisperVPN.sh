@@ -9,7 +9,12 @@ pink="\e[34m"
 # scripting start
 banner(){
 vid
-echo -e '\e[34m kajshghsuwhgvsbhdsuhbvdbhwshwbs
+echo -e '\e[34m 
+_        __     _                   _     ___  _   _                 \ \      / / |_ ()_ _ _   __ _ _\ \   / /  _ \| \ | |
+ \ \ /\ / /| '_ \| / _| ' \ / _ \ '_\ \ / /| |) |  \| |
+  \ V  V / | | | | \__ \ |) |  _/ |   \ V / |  __/| |\  |
+   \_/\_/  || |||_/ ./ \_||    \_/  ||   || \_|
+                       |_|
 '
 echo -e "© 2022 WhisperVPN LTD"
 echo " "
