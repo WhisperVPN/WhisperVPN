@@ -44,6 +44,12 @@ if [ $optnz = "1" ];
 then
 cd $HOME
 cd WhisperVPN
+echo -e "$red Starting WhisperVPN..."
+sleep 3
+echo -e "$red Booting..."
+sleep 2
+echo -e "$red Starting Tor..."
+sleep 1
 tor
 elif [ $optnz = "2" ];
 then
