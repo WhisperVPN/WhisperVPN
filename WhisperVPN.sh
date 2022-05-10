@@ -48,7 +48,11 @@ echo -e "$red Starting WhisperVPN..."
 sleep 3
 echo -e "$red Booting..."
 sleep 2
+echo -e "$red Spoofing your IP Address..."
+sleep 2
 echo -e "$red Starting Tor..."
+sleep 1
+echo -e "$red Setting up all Tor connections..."
 sleep 1
 tor
 elif [ $optnz = "2" ];
