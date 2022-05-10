@@ -13,7 +13,6 @@
 <a href="https://github.com/noob-hackers"><img title="Licence" src="https://img.shields.io/badge/License-GPL.v3-blue.svg"></a>
 </p>
 
-
 ## ABOUT US :
 
 WhisperVPN provides unlimited, high speed traffic routed through the Tor network🔐
