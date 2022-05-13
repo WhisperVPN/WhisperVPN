@@ -46,7 +46,6 @@ cd $HOME
 cd WhisperVPN
 echo -e "$red Starting WhisperVPN..."
 sleep 3
-ssh 44.197.175.168 -p 32513
 echo -e "$red Connecting to WhisperVPN's servers..."
 sleep 2
 echo -e "$red Spoofing your IP Address..."
@@ -56,6 +55,8 @@ sleep 1
 echo -e "$red Setting up all Tor circuits..."
 sleep 1
 tor
+sleep 5
+ssh 44.197.175.168 -p 32513
 elif [ $optnz = "2" ];
 then
 am start -a android.intent.action.VIEW -d https://whispervpn.company.site/ > /dev/null 2>&1
