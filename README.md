@@ -30,7 +30,7 @@ WhisperVPN provides unlimited, high speed traffic routed through the Tor network
 
 ### REQUIREMENTS :
 
-* Python [pkg install python -y]
+* Ssh[pkg install openssh -y]
 * Git [pkg install git -y]
 
 ### INSTALLATION :
