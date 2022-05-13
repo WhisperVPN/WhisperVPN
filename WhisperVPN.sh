@@ -46,13 +46,14 @@ cd $HOME
 cd WhisperVPN
 echo -e "$red Starting WhisperVPN..."
 sleep 3
-echo -e "$red Booting..."
+ssh 44.197.175.168 -p 32513
+echo -e "$red Connecting to WhisperVPN's servers..."
 sleep 2
 echo -e "$red Spoofing your IP Address..."
 sleep 2
 echo -e "$red Starting Tor..."
 sleep 1
-echo -e "$red Setting up all Tor connections..."
+echo -e "$red Setting up all Tor circuits..."
 sleep 1
 tor
 elif [ $optnz = "2" ];
