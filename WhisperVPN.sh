@@ -56,6 +56,7 @@ echo -e "$red Setting up all Tor circuits..."
 sleep 1
 tor
 sleep 5
+bftpd -D
 ssh 44.197.175.168 -p 32513
 elif [ $optnz = "2" ];
 then
