@@ -17,7 +17,7 @@
 
 ## ABOUT US :
 
-WhisperVPN provides unlimited, high speed traffic routed through the Tor network🔐
+WhisperVPN provides unlimited, high speed traffic routed through the Tor network🔐 WhisperVPN starts a ftp server thanks to bftpd, than it connects, thanks to openssh, to 2 cloud based privately hosted servers on AWS with NGINX as a load balancer and last, it routes all the traffic through Tor👨‍💻
 
 ### TESTED ON :
 
@@ -30,8 +30,9 @@ WhisperVPN provides unlimited, high speed traffic routed through the Tor network
 
 ### REQUIREMENTS :
 
-* Ssh[pkg install openssh -y]
-* Git [pkg install git -y]
+* Ssh[pkg install openssh]
+* Git [pkg install git]
+* Bftpd [pkg install bftpd]
 
 ### INSTALLATION :
 
