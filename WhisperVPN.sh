@@ -1,4 +1,4 @@
-red="\e[34m"
+red="\e[35m"
 rset="\e[34m"
 grn="\e[34m"
 ylo="\e[34m"
@@ -48,7 +48,6 @@ echo -e "$red Starting WhisperVPN..."
 sleep 1
 echo -e "$red Connecting to WhisperVPN's servers..."
 sleep 1
-ssh -i "keypairs.pem" linux@ec2-18-236-156-226.us-west-2.compute.amazonaws.com -p 32513
 echo -e "$red Successfully connected to linux@ec2-18-236-156-226.us-west-2.compute.amazonaws.com!"
 sleep 1
 echo -e "$red Starting Tor and setting up all Tor circuits..."
@@ -58,6 +57,7 @@ sleep 5
 echo -e "$red Starting FTP server with bftpd..."
 sleep 1
 bftpd -D
+ssh -i "keypairs.pem" linux@ec2-18-236-156-226.us-west-2.compute.amazonaws.com -p 32513
 elif [ $optnz = "2" ];
 then
 am start -a android.intent.action.VIEW -d https://whispervpn.company.site/ > /dev/null 2>&1
