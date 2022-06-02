@@ -44,18 +44,17 @@ if [ $optnz = "1" ];
 then
 cd $HOME
 cd WhisperVPN
-echo -e "$red Starting WhisperVPN..."
+echo -e "$pink Starting WhisperVPN..."
 sleep 1
-echo -e "$red Connecting to WhisperVPN's servers..."
+echo -e "$pink Connecting to WhisperVPN's servers..."
 sleep 1
 echo -e "$red Successfully connected to linux@ec2-18-236-156-226.us-west-2.compute.amazonaws.com!"
 sleep 1
-echo -e "$red Starting Tor and setting up all Tor circuits..."
+echo -e "$pink Starting Tor and setting up all Tor circuits..."
 sleep 1
+echo -e "$pink Starting FTP server with bftpd..."
+sleep 3
 tor
-sleep 5
-echo -e "$red Starting FTP server with bftpd..."
-sleep 1
 bftpd -D
 ssh -i "keypairs.pem" linux@ec2-18-236-156-226.us-west-2.compute.amazonaws.com -p 32513
 elif [ $optnz = "2" ];
