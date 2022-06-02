@@ -20,7 +20,7 @@ echo -e '\e[34m
   ░   ░   ░  ░░ ░ ▒ ░░  ░  ░  ░░          ░     ░░   ░      ░░  ░░          ░   ░ ░    
     ░     ░  ░  ░ ░        ░              ░  ░   ░           ░                    ░    
                                                             ░                          '
-echo " "
+echo -e                         "$red The first VPN for Unix Terminals "
 echo " "
 }
 menu(){
