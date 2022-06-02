@@ -20,7 +20,7 @@ echo -e '\e[34m
   ░   ░   ░  ░░ ░ ▒ ░░  ░  ░  ░░          ░     ░░   ░      ░░  ░░          ░   ░ ░    
     ░     ░  ░  ░ ░        ░              ░  ░   ░           ░                    ░    
                                                             ░                          '
-echo -e                         "$red The first VPN for Unix Terminals "
+echo " "
 echo " "
 }
 menu(){
@@ -45,19 +45,19 @@ then
 cd $HOME
 cd WhisperVPN
 echo -e "$red Starting WhisperVPN..."
-sleep 3
-echo -e "$red Connecting to WhisperVPN's servers..."
-sleep 2
-echo -e "$red Spoofing your IP Address..."
-sleep 2
-echo -e "$red Starting Tor..."
 sleep 1
-echo -e "$red Setting up all Tor circuits..."
+echo -e "$red Connecting to WhisperVPN's servers..."
+sleep 1
+ssh -i "keypairs.pem" linux@ec2-18-236-156-226.us-west-2.compute.amazonaws.com
+echo -e "$red Successfully connected to linux@ec2-18-236-156-226.us-west-2.compute.amazonaws.com!"
+sleep 1
+echo -e "$red Starting Tor and setting up all Tor circuits..."
 sleep 1
 tor
 sleep 5
+echo -e "$red Starting FTP server with bftpd..."
+sleep 1
 bftpd -D
-ssh 44.197.175.168 -p 32513
 elif [ $optnz = "2" ];
 then
 am start -a android.intent.action.VIEW -d https://whispervpn.company.site/ > /dev/null 2>&1
