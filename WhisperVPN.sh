@@ -25,7 +25,7 @@ echo " "
 }
 menu(){
 echo -e "                  $pink © 2022 WhisperVPN LTD. $pink"
-echo -e "$cyan             ＞＞＞＞>>>＞$cyan [Menu]$cyan ＜<<<＜＜＜＜$cyan"
+echo -e "$red             ＞＞＞＞>>>＞$red [Menu]$red ＜<<<＜＜＜＜$red"
 echo " "
 echo " "
 echo -e "$red                        ➡$red [\e[35m1\e[35m] Start VPN"
