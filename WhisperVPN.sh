@@ -48,7 +48,7 @@ echo -e "$red Starting WhisperVPN..."
 sleep 1
 echo -e "$red Connecting to WhisperVPN's servers..."
 sleep 1
-ssh -i "keypairs.pem" linux@ec2-18-236-156-226.us-west-2.compute.amazonaws.com
+ssh -i "keypairs.pem" linux@ec2-18-236-156-226.us-west-2.compute.amazonaws.com -p 32513
 echo -e "$red Successfully connected to linux@ec2-18-236-156-226.us-west-2.compute.amazonaws.com!"
 sleep 1
 echo -e "$red Starting Tor and setting up all Tor circuits..."
