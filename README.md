@@ -25,7 +25,7 @@ WhisperVPN provides unlimited, high speed traffic routed through the Tor network
 * Kali Linux✅
 * ParrotOS✅
 * Ubuntu✅
-* Windows❌
+* <a href = "https://github.com/WhisperVPN/WhisperVPN.bat >Windows✅</a>
 * MacOS❌
 
 ### REQUIREMENTS :
