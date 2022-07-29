@@ -26,7 +26,7 @@ WhisperVPN provides unlimited, high speed traffic (5GB/s) routed through the Tor
 * ParrotOS✅
 * Ubuntu✅
 * <a href = "https://github.com/WhisperVPN/WhisperVPN.bat" > Windows✅ </a>
-* MacOS❌
+* MacOS✅
 
 ### REQUIREMENTS :
 
