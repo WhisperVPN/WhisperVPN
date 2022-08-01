@@ -1,2 +1,2 @@
 tor==1.0.0
-figlet==0.0.1
+toilet==0.3
