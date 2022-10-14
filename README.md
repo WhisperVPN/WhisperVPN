@@ -27,6 +27,7 @@ WhisperVPN provides unlimited, high speed traffic (5GB/s) routed through the Tor
 * Ubuntu✅
 * <a href = "https://github.com/WhisperVPN/WhisperVPN.bat" > Windows✅ </a>
 * MacOS✅
+* <a href = "https://github.com/Athena-OS/athena-repository" > AthenaOS✅ </a>
 
 ### REQUIREMENTS :
 
