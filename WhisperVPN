@@ -109,7 +109,7 @@ sleep 2.0
 clear
 cd $HOME
 cd WhisperVPN
-bash WhisperVPN.sh
+bash WhisperVPN
 }
 vid(){
 FILE=$HOME/WhisperVPN
@@ -135,7 +135,7 @@ banner
 menu
 elif [ "$p" = "z" ];
 then
-cd $HOM/WhisperVPN
+cd $HOME/WhisperVPN
 rm noob.noob
 banner
 menu
