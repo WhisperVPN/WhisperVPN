@@ -31,8 +31,8 @@ WhisperVPN provides unlimited, high speed traffic (5GB/s) routed through the Tor
 
 ### REQUIREMENTS :
 
-* SSH [pkg install openssh]
-* Git [pkg install git]
+* SSH [apt install openssh]
+* Git [apt install git]
 
 ### INSTALLATION :
 
