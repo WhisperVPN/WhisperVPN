@@ -39,14 +39,16 @@ WhisperVPN provides unlimited, high speed traffic (5GB/s) routed through the Tor
 * git clone https://github.com/WhisperVPN/WhisperVPN
 * cd WhisperVPN
 * pip install -r requirements.txt
-* bash WhisperVPN.sh
+* bash WhisperVPN
 
 ## FEATURES :
 
-* [+] Completely safe!
-* [+] Surf the internet or use your terminal anonymously!
+* [+] Completely safe, no logs kept!
+* [+] Surf the internet and use your terminal anonymously!
 * [+] Friendly menu!
 * [+] Works on Termux!
+
+## PRIVACY POLICY :
 
 ### LICENSE
 
