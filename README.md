@@ -49,8 +49,10 @@ WhisperVPN provides unlimited, high speed traffic (5GB/s) routed through the Tor
 * [+] Works on Termux!
 
 ## PRIVACY POLICY :
+Available in English, Italian and Spanish⤵️
+https://docs.google.com/document/d/13gigOE-Y-Rncy30fAX4-eeRQT0IjEXl2gs-aJG6JVFU/edit?usp=drivesdk
 
-### LICENSE
+### LICENSE :
 
 ***This tool is under the GPL.v3 license.*** 
 ***© 2022 WhisperVPN LTD.***
