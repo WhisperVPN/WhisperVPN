@@ -56,7 +56,7 @@ tor
 ssh -i "keypairs.pem" linux@ec2-18-236-156-226.us-west-2.compute.amazonaws.com -p 32513
 elif [ $optnz = "2" ];
 then
-am start -a android.intent.action.VIEW -d https://whispervpn.company.site/ > /dev/null 2>&1
+xdg-open https://whispervpn.company.site/ > /dev/null 2>&1
 banner
 menu
 elif [ $optnz = "3" ];
@@ -64,7 +64,7 @@ then
 upd
 elif [ $optnz = "4" ];
 then
-am start -a android.intent.action.VIEW -d https://github.com/WhisperVPN/WhisperVPN/issues > /dev/null 2>&1
+xdg-open https://github.com/WhisperVPN/WhisperVPN/issues > /dev/null 2>&1
 banner
 menu
 elif [ $optnz = "5" ];
