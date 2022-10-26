@@ -10,7 +10,7 @@
 </p>
 <p align="center">
 <a href="https://github.com/noob-hackers"><img title="Language" src="https://img.shields.io/badge/Made%20with-Shell-1f425f.svg?v=103"></a>
-<a href="https://github.com/noob-hackers"><img title="Copyright" src="https://img.shields.io/badge/©2022-WhisperVPNLTD-blue.svg"></a>
+<a href="https://github.com/noob-hackers"><img title="Copyright" src="https://img.shields.io/badge/©2022-WhisperVPN-LTD-blue.svg"></a>
 </p>
 
 ![31f09f0b-8b33-4f9d-aab1-53f009a3cbb8](https://user-images.githubusercontent.com/105207989/167656335-44360fa8-7c30-40ec-b3ea-2a26e252e2bc.jpg)
