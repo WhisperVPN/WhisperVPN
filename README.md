@@ -39,7 +39,6 @@ WhisperVPN provides unlimited, high speed traffic (5GB/s) routed through the Tor
 
 * git clone https://github.com/WhisperVPN/WhisperVPN
 * cd WhisperVPN
-* pip install -r requirements.txt
 * bash WhisperVPN
 
 ## FEATURES :
